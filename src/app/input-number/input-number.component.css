@@ -1,0 +1,10 @@
+input{
+    max-width: 70px;
+}
+.input-number{
+    display: flex;
+    max-width: 100px;
+}
+.form-control{
+    width: 100px;
+}

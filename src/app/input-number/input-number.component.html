@@ -1,0 +1,5 @@
+<div class="input-number">
+    <td><button (click)="downQuantity()" class="btn btn-secondary btn-sm">-</button></td>
+    <input class="form-control" type="number"  [(ngModel)]="quantity" (keyup)="onChangeQuantity($event )">
+    <td><button (click)="upQuantity()" class="btn btn-secondary btn-sm">+</button></td>
+</div>
