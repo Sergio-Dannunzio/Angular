@@ -4,7 +4,7 @@
         <tr *ngFor="let gold of buyList">
             <td>{{gold.name}}</td>
             <td>{{gold.quantity}}Gr</td>
-            <td>{{gold.price}}</td>
+            <td>{{gold.price | currency}}</td>
         </tr>
     </table>
 </div>
